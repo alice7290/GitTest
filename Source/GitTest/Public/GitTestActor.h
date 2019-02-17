@@ -26,5 +26,7 @@ public:
 protected:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "GitTest")
 	bool bGitTest = true;
+
+	float FuncTest()const;
 	
 };
