@@ -28,5 +28,7 @@ protected:
 	bool bGitTest = true;
 
 	float FuncTest()const;
+
+	void VoidVoid();
 	
 };
